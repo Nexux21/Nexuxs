@@ -1,0 +1,25 @@
+using UnityEngine;
+
+public class ControlVida : MonoBehaviour
+{
+    public int vidaActual = 100;
+    public int dañoRecibido = 10;
+
+    void Start()
+    {
+        vidaActual -= dañoRecibido;
+
+        if (vidaActual > 30)
+        {
+            Debug.Log("Jugador estable");
+        }
+        else if (vidaActual > 0)
+        {
+            Debug.Log("Jugador en peligro");
+        }
+        else
+        {
+            Debug.Log("Game Over");
+        }
+    }
+}
