@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class CofreEspecial : MonoBehaviour
+{
+    public bool tieneLlave = false;
+    public bool espacioDisponible = false;
+
+    void Start()
+    {
+        bool puedeAbrir = tieneLlave && espacioDisponible;
+
+        if (puedeAbrir)
+        {
+            Debug.Log("Cofre abierto");
+        }
+        else
+        {
+            Debug.Log("No puedes abrir el cofre");
+        }
+    }
+}
