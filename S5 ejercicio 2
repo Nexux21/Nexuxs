@@ -1,0 +1,30 @@
+using UnityEngine;
+
+public class Tarea2  : MonoBehaviour
+{
+    public int puntaje;
+
+    void Start()
+    {
+        bool novato = puntaje < 100;
+        bool intermedio = puntaje >= 100 && puntaje < 300;
+        bool avanzado = puntaje >= 300 && puntaje < 600;
+
+        if (novato)
+        {
+            Debug.Log("Novato");
+        }
+        else if (intermedio)
+        {
+            Debug.Log("Intermedio");
+        }
+        else if (avanzado)
+        {
+            Debug.Log("Avanzado");
+        }
+        else
+        {
+            Debug.Log("Elite");
+        }
+    }
+}
