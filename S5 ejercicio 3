@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class Tarea3 : MonoBehaviour
+{
+    public int nivel;
+
+    void Start()
+    {
+        bool accesoPermitido = nivel >= 10;
+
+        if (accesoPermitido)
+        {
+            Debug.Log("Acceso permitido");
+        }
+        else
+        {
+            Debug.Log("Acceso denegado");
+            Debug.Log("Necesitas seguir entrenando");
+        }
+    }
+}
