@@ -1,0 +1,26 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio4 : MonoBehaviour
+{
+    List<string> enemigos = new List<string>();
+    void Start()
+    {
+
+        enemigos.Add("volador");
+        enemigos.Add("acuatico");
+        enemigos.Add("terrestre");
+        enemigos.Add("fuego");
+
+        print("¡Han aparecido " + enemigos.Count + " enemigos!");
+
+        print("el enemigo numero 2 es : " + enemigos[2]);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
