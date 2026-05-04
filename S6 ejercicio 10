@@ -1,0 +1,20 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio10 : MonoBehaviour
+{
+
+    List<string> enemigos = new List<string>() { "Goblin", "Orco", "Troll", "Esqueleto", "Dragón" };
+
+    void Start()
+    {
+ 
+        int cantidadEnemigos = enemigos.Count;
+
+  
+        print("La cantidad de elementos en la lista es: " + enemigos.Count);
+
+
+        print("¡Cuidado! Hay " + cantidadEnemigos + " enemigos en el área.");
+    }
+}
