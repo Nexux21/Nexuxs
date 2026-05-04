@@ -1,0 +1,29 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio5 : MonoBehaviour
+{
+    int[] niveles = new int[3] {1,5,10};
+
+    List<string> misiones = new List<string>();
+
+    void Start()
+    {
+
+        misiones.Add("Matar 10 enemigos");
+        misiones.Add("Restaurar el santuario");
+
+        print("Nivel intermedio: " + niveles[1]);
+
+        print("Misiones activas: " + misiones.Count);
+        print("Primera misión: " + misiones[0]);
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
