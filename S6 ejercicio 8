@@ -1,0 +1,15 @@
+using System.Collections.Generic; 
+using UnityEngine;
+
+public class ejercicio8 : MonoBehaviour
+{
+    List<string> frutas = new List<string>() { "Manzana", "Pera", "Plátano", "Uva" };
+
+    void Start()
+    {
+     
+        print("El elemento en la posición 1 es: " + frutas[1]);
+
+        print("Total de elementos en la lista: " + frutas.Count);
+    }
+}
