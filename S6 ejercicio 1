@@ -1,0 +1,22 @@
+using UnityEngine;
+
+public class ejercio1 : MonoBehaviour
+{
+
+        int[] puntajes = new int[5] { 48, 50, 23, 17, 18 };
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+        print("Elementos : " + puntajes[0]);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
