@@ -1,0 +1,26 @@
+using System.Linq;
+using UnityEngine;
+
+public class ejercicio7 : MonoBehaviour
+{
+    int[] puntajes = new int[5] { 16, 17, 18, 19, 20 };
+
+
+    void Start()
+    {
+        print("Valor antiguo en posición 2: " + puntajes[2]);
+
+        puntajes[2] = 100;
+
+        print("El nuevo valor en la posición 2 es: " + puntajes[2]);
+
+        print("Total de elementos: " + puntajes.Count());
+
+}
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
