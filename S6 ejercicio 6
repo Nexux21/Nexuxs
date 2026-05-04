@@ -1,0 +1,17 @@
+using System.Linq;
+using UnityEngine;
+
+public class ejercicio6 : MonoBehaviour
+{
+    // Creamos el array de 5 números
+    int[] puntajes = new int[5] { 48, 50, 23, 17, 18 };
+
+    void Start()
+    {
+        // Acceso directo al primer elemento (índice 0)
+        print("El primer elemento es: " + puntajes[0]);
+
+        // Acceso directo al último elemento (índice 4)
+        print("El último elemento es: " + puntajes[puntajes.Count() - 1]);
+    }
+}
