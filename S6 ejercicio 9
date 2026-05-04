@@ -1,0 +1,23 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio9 : MonoBehaviour
+{
+
+    List<string> inventario = new List<string>() { "Espada", "Escudo", "Poción", "Mapa" };
+
+    void Start()
+    {
+
+        print("Elementos iniciales: " + inventario.Count);
+
+        inventario.RemoveAt(1);
+
+
+        print("Se ha eliminado el elemento de la posición 1.");
+
+        print("Elementos restantes: " + inventario.Count);
+
+        print("El nuevo elemento en la posición 1 es: " + inventario[1]);
+    }
+}
