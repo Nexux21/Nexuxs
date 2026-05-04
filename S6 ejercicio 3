@@ -1,0 +1,22 @@
+using UnityEngine;
+
+public class ejercicio3 : MonoBehaviour
+
+ 
+{
+    int[] vidas = new int[3] { 100, 50, 75 };
+    void Start()
+    {
+        print("vida Maxima : " + vidas[0]);
+        
+        print("vida actual : " + vidas[1]);
+
+        print("escudo : " + vidas[2]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
